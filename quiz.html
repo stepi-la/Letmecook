@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Personality Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>What kind of pizza are you?</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <p>1. How do you spend your Friday evening?</p>
+          <label
+            ><input type="radio" name="q1" value="0" required /> Alone at home</label
+          >
+          <label><input type="radio" name="q1" value="1" /> With friends</label>
+          <label><input type="radio" name="q1" value="2" /> At a party</label>
+        </div>
+
+        <div class="question">
+          <p>2. What is most important to you?</p>
+          <label
+            ><input type="radio" name="q2" value="0" required /> Peace</label
+          >
+          <label><input type="radio" name="q2" value="1" /> Family</label>
+          <label
+            ><input type="radio" name="q2" value="2" /> Adventure</label
+          >
+        </div>
+
+        <div class="question">
+          <p>3. Which movie genre do you prefer?</p>
+          <label
+            ><input type="radio" name="q3" value="0" required /> Drama</label
+          >
+          <label><input type="radio" name="q3" value="1" /> Comedy</label>
+          <label><input type="radio" name="q3" value="2" /> Action</label>
+        </div>
+
+        <button type="submit">Find out your pizza</button>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
