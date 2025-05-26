@@ -10,7 +10,7 @@ body {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-image: url('images/portfolio/pizza.png');
+  background-color: #f9f9f9;
 }
 
 h1 {
